@@ -1,0 +1,8 @@
+*{
+    padding: 0;
+}
+
+ul li:hover{
+    color:blue;
+    font-weight: 600;
+}

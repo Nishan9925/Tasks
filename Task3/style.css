@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.buttons{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#red-btn, #blue-btn, #green-btn{
+    width: 100px;
+    height: 40px;
+    border: black solid;
+    border-radius: 50;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;;
+    cursor: pointer;
+}
+
+#red-btn{
+    background-color: red;
+}
+
+#blue-btn{
+    background-color: blue;
+}
+
+#green-btn{
+    background-color: green;
+}
